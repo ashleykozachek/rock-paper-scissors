@@ -1,0 +1,1 @@
+export const getSagaTrigger = <StateType, PayloadType>() => (state: StateType, { type, payload }: { type: string, payload: PayloadType }): void => {};
